@@ -1,0 +1,35 @@
+{
+  "name": "NFT Asset Name #60",
+  "description": "NFT Asset Detailed Description #60",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Fur",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Proud"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Confused"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "None"
+    }
+  ],
+  "creators": [],
+  "collection": {
+    "name": "Collection Name",
+    "family": "Unique Family Name"
+  },
+  "symbol": "NFT",
+  "seller_fee_basis_points": 0,
+  "image": "http://ipfs.io/ipfs/QmNWdYFbFpgt3EMK2c51P8SgtMMPfMSANiTDFnoPT6krZF/60.png",
+  "compiler": "Genfty.com"
+}

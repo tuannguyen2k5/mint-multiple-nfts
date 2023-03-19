@@ -1,0 +1,35 @@
+{
+  "name": "NFT Asset Name #76",
+  "description": "NFT Asset Detailed Description #76",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Fur",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Chill"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smile"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Coat"
+    }
+  ],
+  "creators": [],
+  "collection": {
+    "name": "Collection Name",
+    "family": "Unique Family Name"
+  },
+  "symbol": "NFT",
+  "seller_fee_basis_points": 0,
+  "image": "http://ipfs.io/ipfs/QmNWdYFbFpgt3EMK2c51P8SgtMMPfMSANiTDFnoPT6krZF/76.png",
+  "compiler": "Genfty.com"
+}

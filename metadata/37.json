@@ -1,0 +1,35 @@
+{
+  "name": "NFT Asset Name #37",
+  "description": "NFT Asset Detailed Description #37",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Fur",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Proud"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "T-shirt"
+    }
+  ],
+  "creators": [],
+  "collection": {
+    "name": "Collection Name",
+    "family": "Unique Family Name"
+  },
+  "symbol": "NFT",
+  "seller_fee_basis_points": 0,
+  "image": "http://ipfs.io/ipfs/QmNWdYFbFpgt3EMK2c51P8SgtMMPfMSANiTDFnoPT6krZF/37.png",
+  "compiler": "Genfty.com"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "NFT Asset Name #99",
+  "description": "NFT Asset Detailed Description #99",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Fur",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Open"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Mad"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Shirt"
+    }
+  ],
+  "creators": [],
+  "collection": {
+    "name": "Collection Name",
+    "family": "Unique Family Name"
+  },
+  "symbol": "NFT",
+  "seller_fee_basis_points": 0,
+  "image": "http://ipfs.io/ipfs/QmNWdYFbFpgt3EMK2c51P8SgtMMPfMSANiTDFnoPT6krZF/99.png",
+  "compiler": "Genfty.com"
+}

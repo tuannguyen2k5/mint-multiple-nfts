@@ -1,0 +1,35 @@
+{
+  "name": "NFT Asset Name #21",
+  "description": "NFT Asset Detailed Description #21",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Fur",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Angry"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Vest"
+    }
+  ],
+  "creators": [],
+  "collection": {
+    "name": "Collection Name",
+    "family": "Unique Family Name"
+  },
+  "symbol": "NFT",
+  "seller_fee_basis_points": 0,
+  "image": "http://ipfs.io/ipfs/QmNWdYFbFpgt3EMK2c51P8SgtMMPfMSANiTDFnoPT6krZF/21.png",
+  "compiler": "Genfty.com"
+}

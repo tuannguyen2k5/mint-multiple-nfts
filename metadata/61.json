@@ -1,0 +1,35 @@
+{
+  "name": "NFT Asset Name #61",
+  "description": "NFT Asset Detailed Description #61",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Fur",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Chill"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Happy"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Coat"
+    }
+  ],
+  "creators": [],
+  "collection": {
+    "name": "Collection Name",
+    "family": "Unique Family Name"
+  },
+  "symbol": "NFT",
+  "seller_fee_basis_points": 0,
+  "image": "http://ipfs.io/ipfs/QmNWdYFbFpgt3EMK2c51P8SgtMMPfMSANiTDFnoPT6krZF/61.png",
+  "compiler": "Genfty.com"
+}

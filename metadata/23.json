@@ -1,0 +1,35 @@
+{
+  "name": "NFT Asset Name #23",
+  "description": "NFT Asset Detailed Description #23",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Fur",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Angry"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Happy"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Suit"
+    }
+  ],
+  "creators": [],
+  "collection": {
+    "name": "Collection Name",
+    "family": "Unique Family Name"
+  },
+  "symbol": "NFT",
+  "seller_fee_basis_points": 0,
+  "image": "http://ipfs.io/ipfs/QmNWdYFbFpgt3EMK2c51P8SgtMMPfMSANiTDFnoPT6krZF/23.png",
+  "compiler": "Genfty.com"
+}

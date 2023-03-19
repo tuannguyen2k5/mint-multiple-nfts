@@ -1,0 +1,45 @@
+var NFT = artifacts.require("NFT");
+
+module.exports = async function (deployer) {
+
+    deployer.then(async function () {
+        await deployer.deploy(NFT)
+        nft = await NFT.deployed()
+        let url = [];
+        for (let i = 1; i <= 100; i++) {
+            url.push(`http://ipfs.io/ipfs/QmNWdYFbFpgt3EMK2c51P8SgtMMPfMSANiTDFnoPT6krZF/${i}.json`);
+        }
+        let mintAllNFT = function (url) {
+            const a = [];
+
+            for (let i = 0; i < url.length; i++) {
+                let promise = new Promise((resolve, reject) => {
+
+                    nft.mint(url[i]).on('receipt', function (receipt) {
+                        resolve(console.log(`Loading NFT ${i + 1} on total ${url.length}`))
+
+                    }).on('error', function (err) {
+                        reject(console.log(err))
+
+                    });
+
+                });
+                promise.then(() => {
+                    console.log('ok')
+                }).catch(function (error) {
+                    console.error(error);
+                });
+                a.push(promise);
+            }
+
+            return Promise.all(a).then(() => {
+                console.log('all nft minted')
+            })
+
+        }
+        await mintAllNFT(url);
+
+    })
+
+
+}
